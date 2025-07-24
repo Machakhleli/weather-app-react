@@ -2,7 +2,7 @@ import BgLayer from "../src/background/BgLayer";
 import Spinner from "../src/spinner/Spinner";
 import MainContainer from "../src/mainContainer/MainContainer";
 
-export function App() {
+function App() {
   return (
     <div className="App">
       <BgLayer />
@@ -12,3 +12,5 @@ export function App() {
     </div>
   );
 }
+
+export default App;

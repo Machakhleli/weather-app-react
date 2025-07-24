@@ -1,0 +1,38 @@
+aside {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 35%;
+    height: auto;
+    z-index: 5;
+    right: 0;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem;
+    background-color: rgba(34, 33, 33, 0.3);
+    border-left: 5px solid rgba(255, 255, 255, 0.13);
+}
+
+@media screen and (max-width: 1023px) {
+    aside {
+        width: 100%;
+        position: relative;
+        height: auto;
+        padding: 2rem;
+        border-left: none;
+        background-color: rgba(0, 0, 0, 0.5);
+        overflow-y: auto;
+        max-height: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    aside {
+        padding: 1.5rem 1rem;
+    }
+}

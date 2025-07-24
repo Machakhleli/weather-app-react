@@ -14,7 +14,7 @@ function SearchForm() {
         <img
           src="./assets/media/icons/search icon.svg"
           alt="search icon"
-          class="search-icon"
+          className="search-icon"
         />
       </button>
     </form>
