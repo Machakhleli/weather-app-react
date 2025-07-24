@@ -1,0 +1,19 @@
+#main-container {
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2rem 1fr 18rem;
+    grid-template-rows: 2rem 1fr 2rem;
+}
+
+@media screen and (max-width: 1023px) {
+    #main-container {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        height: auto;
+        width: 100%;
+    }
+}

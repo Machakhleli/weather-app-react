@@ -1,11 +1,11 @@
-import './Spinner.css';
+import "./Spinner.css";
 
 function Spinner() {
-    return (
-       <div id="spinner" class="hidden">
-    <div className="loader"></div>
-  </div>
-    );
+  return (
+    <div id="spinner" className="hidden">
+      <div className="loader"></div>
+    </div>
+  );
 }
 
-export default spinner;
+export default Spinner;

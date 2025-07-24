@@ -1,0 +1,1 @@
+import "./longTermWeatherDetails.css"
